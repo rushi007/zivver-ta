@@ -3,14 +3,17 @@ Automation of todo web application using Cypress
 
 ## Structure
 
-- cypress
-    |____ Fixtures
-    |____ Integration
-    |____ positive (Contains positive test cases)
-    |____ negative (Contains negative test cases)
-    |____ plugins
-    |____ support
-            |____ commands (Contains custom commands)
+```
+cypress
+  |____ Fixtures
+  |____ Integration
+  |____ positive (Contains positive test cases)
+  |____ negative (Contains negative test cases)
+  |____ plugins
+  |____ support
+          |____ commands (Contains custom commands)
+
+```
 
 ## Positive Test Cases
 
