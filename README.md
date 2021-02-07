@@ -15,6 +15,38 @@ cypress
 
 ```
 
+## How to RUN
+
+Please follow below steps to run the test cases
+
+```
+Pre-requisites:
+
+- Node
+
+Steps:
+
+- RUN command "npm install"
+- To execute test cases via cypress UI manually
+
+  RUN command "$(npm bin)/cypress open"
+
+- To execute test cases automated without cypress UI
+
+  RUN command "npm t"
+
+  The above commmand will start the server, execute all end to end tests and then will close the server.
+  After the tests get executed it will show a results table in the terminal,
+  In case any errors the screenshots gets stored in the below path
+
+  "path_to_the_project/cypress/screenshots"
+
+  And the error videos are stored in the below path with .mp4 extension
+
+  "path_to_the_project/cypress/videos" 
+
+```
+
 ## Positive Test Cases
 
 Contains below positive test cases for create, edit, delete and complete todo task.
